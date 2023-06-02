@@ -1,4 +1,5 @@
 IP Address Resolver
+
 This is a simple Python script that resolves the IP address of a given domain name using the socket module. It provides a function get_ip_address(domain_name) that takes a domain name as input and returns the corresponding IP address.
 
 Prerequisites
@@ -11,7 +12,7 @@ Open a terminal or command prompt and navigate to the directory where the script
 
 Run the following command:
 
-**shell **
+shell 
 ----------------------------------------------------------------
 python script.py
 ----------------------------------------------------------------
@@ -23,7 +24,7 @@ If the IP address is successfully retrieved, it will be displayed in the termina
 
 If the IP address retrieval fails, an appropriate error message will be shown.
 
-**Example:**
+Example:
 ----------------------------------------------------------------
 python
 Copy code
