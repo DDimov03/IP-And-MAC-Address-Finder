@@ -1,4 +1,0 @@
-1) I am installing Python on your operating system.
-2) Then burn the file with some IDE.
-3) Enjoy
-:)
