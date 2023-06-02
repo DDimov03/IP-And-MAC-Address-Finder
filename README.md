@@ -26,8 +26,7 @@ If the IP address retrieval fails, an appropriate error message will be shown.
 
 Example:
 ----------------------------------------------------------------
-python
-Copy code
+
 import socket
 
 def get_ip_address(domain_name):
