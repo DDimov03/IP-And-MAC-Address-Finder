@@ -16,22 +16,23 @@ Before running the application, make sure you have the required Python libraries
 ```bash
 pip install getmac tkinter ttkthemes
 ```
-Usage
+## Usage
+
 Launch the application by running main.py.
 Enter a domain name or type 'suggestion' for help (e.g., google).
 Click the "Fetch Addresses" button to retrieve IP and MAC addresses.
 View the results in the text box.
 Click the "Save to File" button to save the results to addresses.txt.
-Screenshots
-Screenshot
 
-Contributing
+## Screenshots
+![IP](https://github.com/DDimov03/IP-And-MAC-Address-Finder/assets/110220663/87d4887a-79ad-4f7e-ae50-2983dd8ccf65)
+
+
+## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-Author
+
+## Author
 Denis Dimov
 Acknowledgments
-Special thanks to the developers of getmac and ttkthemes libraries.
