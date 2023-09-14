@@ -1,56 +1,36 @@
-IP Address Resolver
+# IP and MAC Address Finder
 
-This is a simple Python script that resolves the IP address of a given domain name using the socket module. It provides a function get_ip_address(domain_name) that takes a domain name as input and returns the corresponding IP address.
+A simple Python application to retrieve IP and MAC addresses for a given domain name. This application utilizes the `getmac` library to fetch MAC addresses and the `socket` library to obtain IP addresses.
 
-Prerequisites
-Make sure you have Python installed on your system.
+## Features
 
+- Input a domain name and fetch its IP and MAC addresses.
+- Save the results to a text file.
+- User-friendly interface with a themed style for better aesthetics.
+- Watermark label with the author's name.
+
+## Prerequisites
+
+Before running the application, make sure you have the required Python libraries installed:
+
+```bash
+pip install getmac tkinter ttkthemes
 Usage
-Clone the repository or download the script.py file.
-
-Open a terminal or command prompt and navigate to the directory where the script is located.
-
-Run the following command:
-
-shell 
-----------------------------------------------------------------
-python script.py
-----------------------------------------------------------------
-Enter the domain name when prompted.
-
-The script will attempt to resolve the IP address of the provided domain name.
-
-If the IP address is successfully retrieved, it will be displayed in the terminal.
-
-If the IP address retrieval fails, an appropriate error message will be shown.
-
-Example:
-----------------------------------------------------------------
-
-import socket
-
-def get_ip_address(domain_name):
-    try:
-        ip_address = socket.gethostbyname(domain_name)
-        return ip_address
-    except socket.gaierror:
-        return None
-
-# Example usage
-domain_name = input("Enter the domain name: ")
-ip_address = get_ip_address(domain_name)
-
-if ip_address:
-    print(f"The IP address of {domain_name} is: {ip_address}")
-else:
-    print(f"Failed to retrieve the IP address for {domain_name}")
-    
--------------------------------------------------------------------
-License
-This project is licensed under the MIT License. Feel free to use and modify it according to your needs.
+Launch the application by running main.py.
+Enter a domain name or type 'suggestion' for help (e.g., google).
+Click the "Fetch Addresses" button to retrieve IP and MAC addresses.
+View the results in the text box.
+Click the "Save to File" button to save the results to addresses.txt.
+Screenshots
+Screenshot
 
 Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, please create a pull request or submit an issue.
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-Disclaimer
-This script is provided as-is without any warranty. Use it at your own risk.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Author
+Denis Dimov
+Acknowledgments
+Special thanks to the developers of getmac and ttkthemes libraries.
