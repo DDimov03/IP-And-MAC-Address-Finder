@@ -15,6 +15,7 @@ Before running the application, make sure you have the required Python libraries
 
 ```bash
 pip install getmac tkinter ttkthemes
+```
 Usage
 Launch the application by running main.py.
 Enter a domain name or type 'suggestion' for help (e.g., google).
